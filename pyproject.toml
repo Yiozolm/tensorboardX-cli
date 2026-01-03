@@ -31,6 +31,9 @@ dependencies = [
 Homepage = "https://github.com/lanpa/tensorboardX"
 Repository = "https://github.com/lanpa/tensorboardX.git"
 
+[project.scripts]
+tensorboardx = "tensorboardX.cli:main"
+
 [tool.setuptools]
 include-package-data = true
 packages = ["tensorboardX"]
@@ -96,4 +99,3 @@ select = [
     "I",
 ]
 ignore = ["F401", "E501", "E721", "E741"]
-
