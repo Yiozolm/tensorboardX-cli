@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "tensorboardX"
 dynamic = ["version", "readme"]
 description = "TensorBoardX lets you watch Tensors Flow without Tensorflow"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 license ="MIT"
 authors = [
     {name = "Tzu-Wei Huang", email = "huang.dexter@gmail.com"}
@@ -16,8 +16,6 @@ classifiers = [
     "Intended Audience :: Developers",
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
@@ -25,6 +23,7 @@ dependencies = [
     "numpy",
     "packaging",
     "protobuf>=3.20",
+    "tensorboard>=2.20.0",
 ]
 
 [project.urls]
